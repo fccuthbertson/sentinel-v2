@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { WatcherComponent } from './watcher/watcher.component';
 import {BrowserAnimationsModule, } from '@angular/platform-browser/animations';
 import {MatInputModule} from "@angular/material/input";
+import {MatRippleModule} from "@angular/material/core";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import {MatInputModule} from "@angular/material/input";
     BrowserAnimationsModule,
     MatTableModule,
     MatInputModule,
+    MatRippleModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
