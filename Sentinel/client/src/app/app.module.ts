@@ -1,20 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatTableModule, MatTable } from "@angular/material/table";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WatcherComponent } from './watcher/watcher.component';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule, } from '@angular/platform-browser/animations';
+import {MatInputModule} from "@angular/material/input";
 
 @NgModule({
   declarations: [
     AppComponent,
-    WatcherComponent
+    WatcherComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
