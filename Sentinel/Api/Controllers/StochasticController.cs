@@ -30,7 +30,7 @@ namespace Api.Controllers
         [HttpGet]
         public async Task<StochasticResult> Get()
         {
-            var target = new DateTime(2022, 07, 15, 0, 5, 0);
+            var target = new DateTime(2022, 07, 15, 11, 5, 0);
             var result = await _stochastic.Get("AAPL", Window.OneMinute, target);
             return result;
         }

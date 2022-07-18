@@ -35,7 +35,7 @@ namespace Api.Clients.Polygon
             _logger = lp.CreateLogger("polygonClient");
             _clientFactory = clientFactory;
             _apiKey = Environment.GetEnvironmentVariable("POLYGON_IO_API_KEY");
-            InitWs();
+            // InitWs();
         }
 
         public async Task<AggregatesResponse> GetAggregates(AggregatesRequest r)

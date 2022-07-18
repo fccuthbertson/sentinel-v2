@@ -11,32 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f022ad-bbd2-4841-84bc-5a16e12ee7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Api/Clients/Polygon/IPolygonClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Controllers/StochasticController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Models/TechnicalIndicators/StochasticOscillator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Models/Polygon/WebSockets.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sentinel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Controllers/SymbolsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Clients/Polygon/IPolygonClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Clients/Polygon/IPolygonClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Controllers/StochasticController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/StochasticController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Models/Polygon/Aggregates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Models/Polygon/Aggregates.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Services/IStockScanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Services/Streams/IConsumer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658150757214</updated>
-      <workItem from="1658150760937" duration="207000" />
+      <workItem from="1658150760937" duration="1585000" />
     </task>
     <servers />
   </component>
@@ -142,36 +128,4 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api/Services/IStochasticService.cs</url>
-          <line>92</line>
-          <properties documentPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" initialLine="71" containingFunctionPresentation="method 'GetFor'">
-            <startOffsets>
-              <option value="3001" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3045" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api/Services/IStochasticService.cs</url>
-          <line>117</line>
-          <properties documentPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" initialLine="96" containingFunctionPresentation="method 'CalcStoch'">
-            <startOffsets>
-              <option value="3801" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3834" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>

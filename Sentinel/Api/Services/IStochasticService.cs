@@ -61,20 +61,20 @@ namespace Api.Services
             var start = target.AddMinutes(-(window * 14));
             
             // fetch data
-            var data = (await _polygon.GetAggregates(new AggregatesRequest
+            var res = await _polygon.GetAggregates(new AggregatesRequest
             {
                 Ticker = ticker,
                 Multiplier = (int)w,
                 // minutes in a day; ensure we have enough data
                 Limit = 1440,
                 // we'll support days later
-                Timespan = "minutes",
+                Timespan = "minute",
                 From = start,
                 To = target,
                 Sort = "desc"
-                
-            })).Results.ToList();
-            
+            });
+
+            var data = res.Results.ToList();
             // get most recent closing price.
             var C = data.Take(1).First().Close;
             // gets us only the PREVIOUS sessions. If we include the current
@@ -127,4 +127,5 @@ namespace Api.Services
             };
         }
     }
+
 }
