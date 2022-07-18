@@ -9,21 +9,14 @@
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "api/symbols",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
     "Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/Symbols",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "POLYGON_IO_API_KEY": "yYLRCkyPkr1GQT8QUYDtezInj1hljzJI"
       }
     }
   }

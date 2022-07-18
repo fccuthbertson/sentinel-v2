@@ -6680,6 +6680,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "SuperSocket.ClientEngine.Core >= 0.10.0",
       "WebSocket4Net >= 0.15.2"
     ]
   },
@@ -6721,6 +6722,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"
+          },
+          "SuperSocket.ClientEngine.Core": {
+            "target": "Package",
+            "version": "[0.10.0, )"
           },
           "WebSocket4Net": {
             "target": "Package",

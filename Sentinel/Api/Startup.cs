@@ -1,15 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Api.Clients.Polygon;
+using Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 
 namespace Api
 {
@@ -31,10 +27,12 @@ namespace Api
                 c.BaseAddress = new Uri("https://api.polygon.io");
                 c.DefaultRequestHeaders.Add("Accept", "application/json");
             });
+            services.AddSingleton<IPolygonClient, PolygonClient>();
+            services.AddTransient<IStochasticService, StochasticService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IHostApplicationLifetime lifetime)
         {
             if (env.IsDevelopment())
             {
@@ -50,6 +48,11 @@ namespace Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            lifetime.ApplicationStopping.Register(() =>
+            {
+                var p = app.ApplicationServices.GetService<IPolygonClient>();
+                p.CleanUp();
             });
         }
     }

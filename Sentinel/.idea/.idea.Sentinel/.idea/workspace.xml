@@ -11,132 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68f022ad-bbd2-4841-84bc-5a16e12ee7f7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Controllers/SymbolsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Models/Polygon/Aggregates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Services/IStockScanner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Services/Streams/IConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.CodeAnalysis.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/SuperSocket.ClientEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/System.Composition.AttributedModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/System.Composition.Convention.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/System.Composition.Hosting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/System.Composition.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/System.Composition.TypedParts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/WebSocket4Net.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/.nupkg.metadata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator.3.1.5.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator.3.1.5.nupkg.sha512" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/DotnetToolSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/build/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/buildMultiTargeting/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/dotnet-aspnet-codegenerator.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/dotnet-aspnet-codegenerator.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/dotnet-aspnet-codegenerator.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/dotnet-aspnet-codegenerator.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/dotnet-aspnet-codegenerator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/shims/win-x64/dotnet-aspnet-codegenerator.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/shims/win-x86/dotnet-aspnet-codegenerator.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/toolassets/net461/Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/dotnet-aspnet-codegenerator/3.1.5/tools/netcoreapp3.1/any/toolassets/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/.store/dotnet-aspnet-codegenerator/3.1.5/restore.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.codegeneration.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/obj/dotnet-aspnet-codegenerator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sentinel/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sentinel/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Clients/Polygon/IPolygonClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Controllers/StochasticController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Models/TechnicalIndicators/StochasticOscillator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sentinel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sentinel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Controllers/SymbolsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Models/Polygon/Aggregates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Models/Polygon/Aggregates.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Services/IStockScanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Services/Streams/IConsumer.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp3.1/Api.pdb" afterDir="false" />
@@ -144,10 +37,6 @@
       <change beforePath="$PROJECT_DIR$/Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/watcher/watcher.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/watcher/watcher.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/watcher/watcher.component.sass" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/watcher/watcher.component.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/watcher/watcher.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/watcher/watcher.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,16 +47,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cb06ef8575846faa96238206314da14fa00/0c/f167bb87/MessageReceivedEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4cb06ef8575846faa96238206314da14fa00/eb/2532f0a5/WebSocket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/dbd80dafc8794140aef5960a6254d156c200/31/48d2cef2/ErrorEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9f691896ec869f8d8c5df9145786d7dd6d3c33ce8628becb2654562c08119c6/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b85d5bb83a1cb47367d66e48cc47d3f29c442ad1f6fac567cb2af9a44b4/PlatformNotSupportedException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d0b9999197d2d6cfcd8f3ec17bad667c35212e14f8a54d18a4a6d2e3f833/Socket.Unix.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e2f67acb1a9d7e18bf1a0d353fdabac2e22c2684d7a470d8836485847c1d5b/LoggingServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="ProjectId" id="2C7PecBxECvGHFQu8lsy8ZF2pHI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/frank/RiderProjects/sentinel-v2/Sentinel/client",
     "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/snap/rider/290/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+    "ts.external.directory.path": "/snap/rider/290/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Api: IIS Express">
@@ -222,8 +126,52 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68f022ad-bbd2-4841-84bc-5a16e12ee7f7" name="Changes" comment="" />
+      <created>1658150757214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658150757214</updated>
+      <workItem from="1658150760937" duration="207000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api/Services/IStochasticService.cs</url>
+          <line>92</line>
+          <properties documentPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" initialLine="71" containingFunctionPresentation="method 'GetFor'">
+            <startOffsets>
+              <option value="3001" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3045" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Api/Services/IStochasticService.cs</url>
+          <line>117</line>
+          <properties documentPath="$PROJECT_DIR$/Api/Services/IStochasticService.cs" initialLine="96" containingFunctionPresentation="method 'CalcStoch'">
+            <startOffsets>
+              <option value="3801" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3834" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>

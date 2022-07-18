@@ -40,6 +40,10 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "SuperSocket.ClientEngine.Core": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
             "WebSocket4Net": {
               "target": "Package",
               "version": "[0.15.2, )"
